@@ -8,9 +8,9 @@ DeptName VARCHAR(30));
 #displaying employee table
 create table employee
 (EmpId INT PRIMARY KEY,
-EmpName VARCHAR(10),
+EmpName VARCHAR(30),
 EmpNo VARCHAR(10),
-Address VARCHAR(20));
+Address VARCHAR(30));
 #altering
 ALTER TABLE department ADD Email varchar(30);
 ALTER TABLE employee ADD email varchar(30);
