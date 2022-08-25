@@ -25,9 +25,9 @@ update customer set DOB='1987-05-15' where Cust_id='A03';
 update customer set DOB='1983-12-04' where Cust_id='A05';
 #displaying the updated data of table
 select * from customer1;
-#deleting datas from A01 and A02
+#deleting datas from A01 and A05
 delete from customer where Cust_id='A01';
-delete from customer where Cust_id='A02';
+delete from customer where Cust_id='A05';
 #deleting all rows from table
 TRUNCATE customer1;
 #insert 5 records
